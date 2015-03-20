@@ -1,0 +1,9 @@
+flags = ['-g', '-Wall']
+libs_cryptopp = ['cryptopp']
+libs_openssl = ['ssl']
+
+env = Environment(CXXFLAGS = flags, LIBS = libs_cryptopp)
+env.Program("cryptopp", "cryptopp.cpp")
+
+env = Environment(CXXFLAGS = flags, LIBS = libs_openssl)
+env.Program("openssl", "openssl.cpp")
