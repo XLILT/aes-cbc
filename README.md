@@ -6,7 +6,7 @@ Brief Introduction
 Build
    relay on:
       crypto++ : yum install -y cryptopp-devel cryptopp
-      openssl  : yum install -y openssl-devel openssl
+       openssl  : yum install -y openssl-devel openssl
       scons    : yum install -y scons
    
    build all:    scons
