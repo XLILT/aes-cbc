@@ -4,13 +4,22 @@ Brief Introduction
   Padding model is zeros-padding.
 
 Build
- relay on:
  
-   crypto++ : yum install -y cryptopp-devel cryptopp
+relay on: crypto++, openssl, scons
  
-   openssl  : yum install -y openssl-devel openssl
+crypto++: 
+
+    yum install -y cryptopp-devel cryptopp
  
-   scons    : yum install -y scons
+openssl: 
+
+    yum install -y openssl-devel openssl
  
- build all:    scons
+scons: 
+
+    yum install -y scons
+ 
+build all:    
+
+    scons
   
